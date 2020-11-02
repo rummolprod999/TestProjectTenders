@@ -1,6 +1,6 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using ParserTenders;
+
 namespace TestProjectTenders
 {
     [TestFixture]
@@ -9,8 +9,8 @@ namespace TestProjectTenders
         [Test]
         public void TestPrice()
         {
-            decimal d = 20979288.57m;
-            decimal m = UtilsFromParsing.ParsePrice("20979288,57");
+            var d = 20979288.57m;
+            var m = UtilsFromParsing.ParsePrice("20979288,57");
             Assert.AreEqual(d, m);
         }
     }
