@@ -1,5 +1,9 @@
-﻿using NUnit.Framework;
+﻿#region
+
+using NUnit.Framework;
 using ParserTenders;
+
+#endregion
 
 namespace TestProjectTenders
 {
